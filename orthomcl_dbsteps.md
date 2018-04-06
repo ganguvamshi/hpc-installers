@@ -57,3 +57,10 @@ mcl mclInput --abc -I 1.5 -o mclOutput
 ```
 ### 10. orthomclMclToGroups
 `orthomclMclToGroups dm6 1000 <mclOutput >groups.txt`
+
+
+## Now stop the mysql service 
+
+After finishing all the orhomcl commands, now we should stop the mysql service as below
+
+`mysqldadmin --defaults-file="/hpctmp/biodata/mysqldata/mysql.cnf" shutdown`
