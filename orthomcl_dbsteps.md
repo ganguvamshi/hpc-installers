@@ -39,7 +39,7 @@ mysqld_safe --defaults-file="/hpctmp/biodata/mysqldata/mysql.cnf"
 ### 4. All-v-all Blast
 ```
 makeblastdb -in goodProteins.fasta -dbtype prot -out dm6_blastdb
-blastp -db dm6_blastdb -query fasta/goodProteins.fasta  -evalue 1e-5 -outfmt 6 -num_threads 6 -out dm6_all-v-all_blast.tsv
+blastp -db dm6_blastdb -query fasta/goodProteins.fasta  -soft_masking -num_descriptions 100000 -num_alignments 100000 -xdrop_gap_final 55 -evalue 1e-5 -outfmt 6 -num_threads 6 -out dm6_all-v-all_blast.tsv
 
 ```
 ### 5.orthomclBlastParser
