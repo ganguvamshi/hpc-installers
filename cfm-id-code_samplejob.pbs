@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#PBS -P Project_Name_of_Job
+#PBS -q parallel8
+#PBS -l select=1:ncpus=8:mpiprocs=8:mem=10GB
+#PBS -j oe
+#PBS -N Job_Name
+###  -N Job_Name: set filename for standard output/error message.
+
+cd $PBS_O_WORKDIR;   ## This line is needed, do not modify.
+
+##--- Put your exec/application commands below ---
+##--- For example:
+source /etc/profile.d/rec_modules.sh
+module load cfm-id-code;  module list
+
+np=$( cat ${PBS_NODEFILE} |wc -l );  ### get number of CPUs
+mpirun -f ${PBS_NODEFILE} cfm-train example_input_file.txt example_feature_config.txt example_param_config.txt example_train_data.msp 1 status.log
