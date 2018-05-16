@@ -18,3 +18,4 @@ Software| Version | reference
 [icu](icu_60.2.md)|60.2|http://site.icu-project.org/download 
 [rdkit](rdkit.md)|2013_09_01|http://www.rdkit.org/
 [cfm-id-code](cfm-id.md)|2.0|https://sourceforge.net/p/cfm-id/wiki/Home/#on-linux
+[singularity](singaularity_2.5.1.md)|2.5.1|https://singularity.lbl.gov/index.html
