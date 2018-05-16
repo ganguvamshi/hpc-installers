@@ -19,10 +19,9 @@ cd $BOOST_DIR
 ```
 
 ### Module file for `boost_py3`
-
+```
 #%Module1.0
 
-```
 set     version         1.67_py27
 set     prefix          /app1/centos6.3/gnu
 set     tool            boost
