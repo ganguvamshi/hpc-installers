@@ -40,8 +40,12 @@ module-whatis   "Loads the enviornment for $tool Library Version $version\n"
 if { ![is-loaded perl5 ] } {
         module load perl5
 }
+if { ![is-loaded jre/1.8.0_162 ] } {
+        module load jre/1.8.0_162
+}
 
 prereq perl5
+prereq jre/1.8.0_162
 
 prepend-path        PATH                            ${prefix}/bin
 
