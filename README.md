@@ -23,3 +23,4 @@ Software| Version | reference
 [canu](canu_1.7.md)|1.7|https://github.com/marbl/canu
 [maven](maven_3.5.3.md)|3.5.3|https://maven.apache.org/install.html
 [MHAP](mhap_2.1.3.md)|2.1.3|https://github.com/marbl/MHAP
+[JAGS](jags_4.3.0.md)|4.3.0|http://mcmc-jags.sourceforge.net/ 

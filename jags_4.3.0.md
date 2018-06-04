@@ -24,3 +24,29 @@ make install
 ```
 ### Modulefile
 
+```
+#%Module -*****-
+##
+## modulefile
+##
+set tool jags
+set version 4.3.0
+set prefix /app1/centos6.3/gnu
+
+proc ModulesHelp { } {
+        global version prefix tool
+        puts stderr "\tenvironment for Loading the $tool Library for GNU C Compiler"
+}
+
+module-whatis   "Loads the enviornment for $tool Library Version $version\n"
+
+set     root    ${prefix}/${tool}/${version}
+
+
+prepend-path            PATH                            ${root}/bin
+prepend-path            LD_LIBRARY_PATH                 ${root}/lib
+prepend-path            LIBRARY_PATH                    ${root}/lib
+prepend-path            MANPATH                         ${root}/share/man
+prepend-path            CPATH                           ${root}/include
+prepend-path            PKG_CONFIG_PATH                 ${root}/lib/pkgconfig
+```
