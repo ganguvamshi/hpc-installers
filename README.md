@@ -24,3 +24,5 @@ Software| Version | reference
 [maven](maven_3.5.3.md)|3.5.3|https://maven.apache.org/install.html
 [MHAP](mhap_2.1.3.md)|2.1.3|https://github.com/marbl/MHAP
 [JAGS](jags_4.3.0.md)|4.3.0|http://mcmc-jags.sourceforge.net/ 
+[proovread](proovread_2.14.0.md)|2.14.0|https://github.com/BioInf-Wuerzburg/proovread 
+[LoRDEC](lordec_0.9.md)|0.9|http://www.atgc-montpellier.fr/lordec/
