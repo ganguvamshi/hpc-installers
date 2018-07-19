@@ -26,3 +26,4 @@ Software| Version | reference
 [JAGS](jags_4.3.0.md)|4.3.0|http://mcmc-jags.sourceforge.net/ 
 [proovread](proovread_2.14.0.md)|2.14.0|https://github.com/BioInf-Wuerzburg/proovread 
 [LoRDEC](lordec_0.9.md)|0.9|http://www.atgc-montpellier.fr/lordec/
+[nodeJs](nodejs_8.11.2.md)|8.11.2|https://github.com/nodejs/node 
