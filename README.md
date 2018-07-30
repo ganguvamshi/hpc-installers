@@ -29,3 +29,6 @@ Software| Version | reference
 [nodeJs](nodejs_8.11.2.md)|8.11.2|https://github.com/nodejs/node
 [smrtlink](smrtlink_5.1.0.md)|5.1.0|https://www.pacb.com/support/software-downloads/
 [Mummer3](mummer_3.23.md)|3.23|http://mummer.sourceforge.net/
+[Metassembler](metassembler_1.5.md)|1.5|https://sourceforge.net/projects/metassembler/
+[PBSuite](pbsuite_15.8.24.md)|15.8.24|https://sourceforge.net/projects/pb-jelly/
+[BLASR](blasr_5.3.2.md)|5.3.2|https://github.com/PacificBiosciences/blasr
