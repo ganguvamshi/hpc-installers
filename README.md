@@ -32,3 +32,5 @@ Software| Version | reference
 [Metassembler](metassembler_1.5.md)|1.5|https://sourceforge.net/projects/metassembler/
 [PBSuite](pbsuite_15.8.24.md)|15.8.24|https://sourceforge.net/projects/pb-jelly/
 [BLASR](blasr_5.3.2.md)|5.3.2|https://github.com/PacificBiosciences/blasr
+[Pindel](pindel_0.25b8.md)|0.25b8|http://gmt.genome.wustl.edu/packages/pindel/index.html
+[GMcloser](gmcloser_1.6.2.md)|1.6.2|https://sourceforge.net/projects/gmcloser/
