@@ -34,3 +34,5 @@ Software| Version | reference
 [BLASR](blasr_5.3.2.md)|5.3.2|https://github.com/PacificBiosciences/blasr
 [Pindel](pindel_0.25b8.md)|0.25b8|http://gmt.genome.wustl.edu/packages/pindel/index.html
 [GMcloser](gmcloser_1.6.2.md)|1.6.2|https://sourceforge.net/projects/gmcloser/
+[Breakdancer](breakdancer_1.3.6.md)|1.3.6|https://github.com/genome/breakdancer
+[gridss](gridss_1.81.md)|1.8.1|https://github.com/PapenfussLab/gridss
